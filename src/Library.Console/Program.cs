@@ -24,3 +24,4 @@ var servicesProvider = services.BuildServiceProvider();
 
 var consoleApp = servicesProvider.GetRequiredService<ConsoleApp>();
 consoleApp.Run().Wait();
+//custom by copilot 
